@@ -1,8 +1,8 @@
 #include "main.hpp"
-#include "globalInc.hpp"
+#include "stepper.hpp"
 void setup()
 {
-  // put your setup code here, to run once:
+  Stepper yStepper(15, 2, 8, 7, 16000); // put your setup code here, to run once:
 }
 
 void loop()
